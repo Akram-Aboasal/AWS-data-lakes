@@ -1,4 +1,4 @@
-# AWS-data-lakes
+# AWS-data-lake
 
 # Project: Spark and Data Lake
 
