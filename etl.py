@@ -123,8 +123,8 @@ def process_log_data(spark, input_data, output_data):
 
 def main():
     spark = create_spark_session()
-    input_data = "s3a://udacity-dend/"
-    output_data = "s3a://sparkify-udacity-data-lake/"
+    input_data = "s3a://sparkifybucket1/"
+    output_data = "s3a://sparkifybucket1/output_data/"
     
     process_song_data(spark, input_data, output_data)    
     process_log_data(spark, input_data, output_data)
